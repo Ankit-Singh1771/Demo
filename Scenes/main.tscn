@@ -1,0 +1,372 @@
+[gd_scene load_steps=18 format=3 uid="uid://dkwjbu4faaqr1"]
+
+[ext_resource type="Script" path="res://Scripts/main_world_logic.gd" id="1_br6kq"]
+[ext_resource type="PackedScene" uid="uid://tk80nbnrx4yr" path="res://Scenes/main_player.tscn" id="3_4ks5i"]
+[ext_resource type="PackedScene" uid="uid://cg1evae65pat1" path="res://Scenes/drone_collecter.tscn" id="3_qkwfp"]
+[ext_resource type="PackedScene" uid="uid://e3konljx3y3p" path="res://Scenes/wooden_base.tscn" id="4_15dge"]
+[ext_resource type="PackedScene" uid="uid://hifaqprv2l3e" path="res://Scenes/main_storage.tscn" id="5_l8f8g"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_34ic1"]
+sky_horizon_color = Color(0.692328, 0.727226, 0.774755, 1)
+ground_bottom_color = Color(0.384314, 0.454902, 0.54902, 1)
+ground_horizon_color = Color(0.692328, 0.727226, 0.774755, 1)
+
+[sub_resource type="Sky" id="Sky_q256n"]
+sky_material = SubResource("ProceduralSkyMaterial_34ic1")
+
+[sub_resource type="Environment" id="Environment_cobme"]
+background_mode = 2
+background_energy_multiplier = 0.1
+sky = SubResource("Sky_q256n")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="Animation" id="Animation_b3sno"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("sun:light_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 0.270588, 0, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("sun:light_energy")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.5]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("sun/img_sun:light_color")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 0.560054, 0.472461, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../WorldEnvironment:environment:background_energy_multiplier")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.1]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath(".:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_1k1id"]
+resource_name = "time"
+length = 600.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("sun:light_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 150, 300),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 0.270588, 0, 1), Color(1, 1, 1, 1), Color(1, 0.270588, 0, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("sun:light_energy")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 150, 300),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.5, 1.0, 0.5]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("sun/img_sun:light_color")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 150, 300),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 0.560054, 0.472461, 1), Color(1, 1, 1, 1), Color(1, 0.560784, 0.470588, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../WorldEnvironment:environment:background_energy_multiplier")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 150, 300),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.1, 1.0, 0.05]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath(".:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 150, 300, 600),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-1.5708, 0, 0), Vector3(-3.14159, 0, 0), Vector3(-6.28319, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_jw5yb"]
+_data = {
+"RESET": SubResource("Animation_b3sno"),
+"time": SubResource("Animation_1k1id")
+}
+
+[sub_resource type="Shader" id="Shader_uowk7"]
+code = "// NOTE: Shader automatically converted from Godot Engine 4.2.2.stable's StandardMaterial3D.
+
+shader_type spatial;
+render_mode blend_mix,depth_draw_always,cull_back,diffuse_burley,specular_schlick_ggx;
+uniform vec4 albedo : source_color;
+uniform sampler2D texture_albedo : source_color,filter_linear_mipmap,repeat_enable;
+uniform float point_size : hint_range(0,128);
+uniform float roughness : hint_range(0,1);
+uniform sampler2D texture_metallic : hint_default_white,filter_linear_mipmap,repeat_enable;
+uniform vec4 metallic_texture_channel;
+uniform sampler2D texture_roughness : hint_roughness_r,filter_linear_mipmap,repeat_enable;
+uniform float specular;
+uniform float metallic;
+uniform sampler2D texture_refraction : filter_linear_mipmap,repeat_enable;
+uniform float refraction : hint_range(-16,16);
+uniform vec4 refraction_texture_channel;
+uniform sampler2D screen_texture : hint_screen_texture, repeat_disable, filter_linear_mipmap;uniform sampler2D texture_normal : hint_roughness_normal,filter_linear_mipmap,repeat_enable;
+uniform float normal_scale : hint_range(-16,16);
+varying vec3 uv1_triplanar_pos;
+uniform float uv1_blend_sharpness;
+varying vec3 uv1_power_normal;
+uniform vec3 uv1_scale;
+uniform vec3 uv1_offset;
+uniform vec3 uv2_scale;
+uniform vec3 uv2_offset;
+
+
+void vertex() {
+	vec3 normal = MODEL_NORMAL_MATRIX * NORMAL;
+	TANGENT = vec3(0.0,0.0,-1.0) * abs(normal.x);
+	TANGENT+= vec3(1.0,0.0,0.0) * abs(normal.y);
+	TANGENT+= vec3(1.0,0.0,0.0) * abs(normal.z);
+	TANGENT = inverse(MODEL_NORMAL_MATRIX) * normalize(TANGENT);
+	BINORMAL = vec3(0.0,1.0,0.0) * abs(normal.x);
+	BINORMAL+= vec3(0.0,0.0,-1.0) * abs(normal.y);
+	BINORMAL+= vec3(0.0,1.0,0.0) * abs(normal.z);
+	BINORMAL = inverse(MODEL_NORMAL_MATRIX) * normalize(BINORMAL);
+	uv1_power_normal=pow(abs(normal),vec3(uv1_blend_sharpness));
+	uv1_triplanar_pos = (MODEL_MATRIX * vec4(VERTEX, 1.0f)).xyz * uv1_scale + uv1_offset + TIME * 0.01;
+	uv1_power_normal/=dot(uv1_power_normal,vec3(1.0));
+	uv1_triplanar_pos *= vec3(1.0,-1.0, 1.0);
+}
+
+
+
+
+vec4 triplanar_texture(sampler2D p_sampler,vec3 p_weights,vec3 p_triplanar_pos) {
+	vec4 samp=vec4(0.0);
+	samp+= texture(p_sampler,p_triplanar_pos.xy) * p_weights.z;
+	samp+= texture(p_sampler,p_triplanar_pos.xz) * p_weights.y;
+	samp+= texture(p_sampler,p_triplanar_pos.zy * vec2(-1.0,1.0)) * p_weights.x;
+	return samp;
+}
+
+
+void fragment() {
+	vec4 albedo_tex = triplanar_texture(texture_albedo,uv1_power_normal,uv1_triplanar_pos);
+	ALBEDO = albedo.rgb * albedo_tex.rgb;
+	float metallic_tex = dot(triplanar_texture(texture_metallic,uv1_power_normal,uv1_triplanar_pos),metallic_texture_channel);
+	METALLIC = metallic_tex * metallic;
+	vec4 roughness_texture_channel = vec4(1.0,0.0,0.0,0.0);
+	float roughness_tex = dot(triplanar_texture(texture_roughness,uv1_power_normal,uv1_triplanar_pos),roughness_texture_channel);
+	ROUGHNESS = roughness_tex * roughness;
+	SPECULAR = specular;
+	NORMAL_MAP = triplanar_texture(texture_normal,uv1_power_normal,uv1_triplanar_pos).rgb;
+	NORMAL_MAP_DEPTH = normal_scale;
+	vec3 unpacked_normal = NORMAL_MAP;
+	unpacked_normal.xy = unpacked_normal.xy * 2.0 - 1.0;
+	unpacked_normal.z = sqrt(max(0.0, 1.0 - dot(unpacked_normal.xy, unpacked_normal.xy)));
+	vec3 ref_normal = normalize( mix(NORMAL,TANGENT * unpacked_normal.x + BINORMAL * unpacked_normal.y + NORMAL * unpacked_normal.z,NORMAL_MAP_DEPTH) );
+	vec2 ref_ofs = SCREEN_UV - ref_normal.xy * dot(triplanar_texture(texture_refraction,uv1_power_normal,uv1_triplanar_pos),refraction_texture_channel) * refraction;
+	float ref_amount = 1.0 - albedo.a * albedo_tex.a;
+	EMISSION += textureLod(screen_texture,ref_ofs,ROUGHNESS * 8.0).rgb * ref_amount * EXPOSURE;
+	ALBEDO *= 1.0 - ref_amount;
+	ALPHA = 1.0;
+}
+"
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_8g2ke"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_tjpcc"]
+seamless = true
+as_normal_map = true
+noise = SubResource("FastNoiseLite_8g2ke")
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_b6umt"]
+seamless = true
+as_normal_map = true
+noise = SubResource("FastNoiseLite_8g2ke")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hmnf5"]
+render_priority = 0
+shader = SubResource("Shader_uowk7")
+shader_parameter/albedo = Color(0.467837, 0.648019, 0.989997, 0.458824)
+shader_parameter/point_size = 1.0
+shader_parameter/roughness = 0.0
+shader_parameter/metallic_texture_channel = null
+shader_parameter/specular = 0.5
+shader_parameter/metallic = 0.0
+shader_parameter/refraction = 0.05
+shader_parameter/refraction_texture_channel = null
+shader_parameter/normal_scale = 1.0
+shader_parameter/uv1_blend_sharpness = 1.0
+shader_parameter/uv1_scale = Vector3(0.04, 0.04, 0.04)
+shader_parameter/uv1_offset = Vector3(0, 0, 0)
+shader_parameter/uv2_scale = Vector3(1, 1, 1)
+shader_parameter/uv2_offset = Vector3(0, 0, 0)
+shader_parameter/texture_refraction = SubResource("NoiseTexture2D_b6umt")
+shader_parameter/texture_normal = SubResource("NoiseTexture2D_tjpcc")
+
+[sub_resource type="BoxMesh" id="BoxMesh_g0gf4"]
+material = SubResource("ShaderMaterial_hmnf5")
+size = Vector3(100, 1, 100)
+
+[node name="main" type="Node3D"]
+script = ExtResource("1_br6kq")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_cobme")
+
+[node name="day-night" type="Node3D" parent="."]
+
+[node name="sun" type="DirectionalLight3D" parent="day-night"]
+light_color = Color(1, 0.270588, 0, 1)
+light_energy = 0.5
+shadow_enabled = true
+sky_mode = 1
+
+[node name="img_sun" type="DirectionalLight3D" parent="day-night/sun"]
+light_color = Color(1, 0.560054, 0.472461, 1)
+light_energy = 2.245
+light_indirect_energy = 1.326
+light_angular_distance = 3.7
+sky_mode = 2
+
+[node name="moon" type="DirectionalLight3D" parent="day-night"]
+transform = Transform3D(1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 0, 0, 0)
+light_color = Color(0, 0, 0, 1)
+sky_mode = 1
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="day-night/moon"]
+light_energy = 2.925
+light_angular_distance = 1.7
+sky_mode = 2
+
+[node name="cycle" type="AnimationPlayer" parent="day-night"]
+libraries = {
+"": SubResource("AnimationLibrary_jw5yb")
+}
+
+[node name="sea" type="MeshInstance3D" parent="."]
+transform = Transform3D(100, 0, 0, 0, 50, 0, 0, 0, 100, 0, -25, 0)
+mesh = SubResource("BoxMesh_g0gf4")
+
+[node name="icons" type="Node2D" parent="."]
+
+[node name="Button" type="Button" parent="icons"]
+offset_left = 1007.0
+offset_right = 1112.0
+offset_bottom = 50.0
+theme_override_font_sizes/font_size = 30
+text = "S A V E"
+
+[node name="Button2" type="Button" parent="icons"]
+offset_left = 937.0
+offset_top = 75.0
+offset_right = 1120.0
+offset_bottom = 152.0
+theme_override_font_sizes/font_size = 50
+text = "L O A D"
+
+[node name="distance" type="Label" parent="icons"]
+offset_top = 51.0
+offset_right = 86.0
+offset_bottom = 74.0
+text = "items: "
+
+[node name="Label" type="Label" parent="icons"]
+offset_left = 221.0
+offset_top = 97.0
+offset_right = 261.0
+offset_bottom = 120.0
+text = "final location: -0.049, 3, -0.025"
+
+[node name="Label2" type="Label" parent="icons"]
+offset_left = 221.0
+offset_top = 152.0
+offset_right = 261.0
+offset_bottom = 175.0
+text = "current location: "
+
+[node name="Player" parent="." node_paths=PackedStringArray("collecter_drone") instance=ExtResource("3_4ks5i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.36243, 0.523917, 0)
+collecter_drone = NodePath("../item_collecter")
+
+[node name="item_collecter" parent="." node_paths=PackedStringArray("player", "main_storage") instance=ExtResource("3_qkwfp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0490434, 3, 20.775)
+player = NodePath("../Player")
+main_storage = NodePath("../pre build/main storage")
+
+[node name="pre build" type="Node3D" parent="."]
+
+[node name="plateform" parent="pre build" instance=ExtResource("4_15dge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.42464, 0)
+
+[node name="plateform2" parent="pre build" instance=ExtResource("4_15dge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.79615, -0.42464, 0)
+
+[node name="main storage" parent="pre build" node_paths=PackedStringArray("drone") instance=ExtResource("5_l8f8g")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
+drone = NodePath("../../item_collecter")
+
+[connection signal="pressed" from="icons/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="icons/Button2" to="." method="_on_button_2_pressed"]

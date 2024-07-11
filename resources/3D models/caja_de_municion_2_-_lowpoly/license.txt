@@ -1,0 +1,11 @@
+Model Information:
+* title:	Caja de munición 2 - Lowpoly
+* source:	https://sketchfab.com/3d-models/caja-de-municion-2-lowpoly-257304a529714c12991bb1d3dd0778af
+* author:	media_mas (https://sketchfab.com/media_mas)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Caja de munición 2 - Lowpoly" (https://sketchfab.com/3d-models/caja-de-municion-2-lowpoly-257304a529714c12991bb1d3dd0778af) by media_mas (https://sketchfab.com/media_mas) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

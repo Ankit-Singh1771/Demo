@@ -1,0 +1,969 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 917,
+      "max": [
+        32.5,
+        17.382434844970703,
+        28.38593292236328
+      ],
+      "min": [
+        -32.5,
+        -17.382429122924805,
+        -1.0000001192092896
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 11004,
+      "componentType": 5126,
+      "count": 917,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.9628965258598328
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 917,
+      "max": [
+        0.9985409379005432,
+        0.999500036239624
+      ],
+      "min": [
+        0.0005000074743293226,
+        0.0005000000237487257
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 2580,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 22008,
+      "componentType": 5126,
+      "count": 360,
+      "max": [
+        33.174198150634766,
+        16.86973762512207,
+        28.38593101501465
+      ],
+      "min": [
+        -33.174198150634766,
+        -7.489721298217773,
+        20.96898078918457
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 26328,
+      "componentType": 5126,
+      "count": 360,
+      "max": [
+        1.0,
+        1.0,
+        0.9807020425796509
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.9823412895202637
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7336,
+      "componentType": 5126,
+      "count": 360,
+      "max": [
+        0.9938750863075256,
+        0.9849031567573547
+      ],
+      "min": [
+        0.5656735301017761,
+        0.2977033257484436
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 10320,
+      "componentType": 5125,
+      "count": 948,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 30648,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        6.4916181564331055,
+        16.871479034423828,
+        20.44045066833496
+      ],
+      "min": [
+        -6.4916181564331055,
+        -16.871475219726563,
+        7.662060737609863
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 30936,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        5.885106929781614e-06,
+        1.0,
+        2.9777376653328247e-07
+      ],
+      "min": [
+        -5.885106929781614e-06,
+        -1.0,
+        -3.0015332868060796e-06
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 10216,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        0.3613196611404419,
+        0.49885228276252747
+      ],
+      "min": [
+        0.24043050408363342,
+        0.08984947204589844
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 14112,
+      "componentType": 5125,
+      "count": 60,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 31224,
+      "componentType": 5126,
+      "count": 672,
+      "max": [
+        32.5,
+        16.783493041992188,
+        38.69593048095703
+      ],
+      "min": [
+        -32.5,
+        -16.5,
+        32.90715026855469
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 39288,
+      "componentType": 5126,
+      "count": 672,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 10408,
+      "componentType": 5126,
+      "count": 672,
+      "max": [
+        0.9117891788482666,
+        0.9961896538734436
+      ],
+      "min": [
+        0.0005000074743293226,
+        0.5802900791168213
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 14352,
+      "componentType": 5125,
+      "count": 1962,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 47352,
+      "componentType": 5126,
+      "count": 531,
+      "max": [
+        25.982107162475586,
+        17.364471435546875,
+        38.37429428100586
+      ],
+      "min": [
+        -25.982107162475586,
+        -16.774269104003906,
+        32.90715026855469
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 53724,
+      "componentType": 5126,
+      "count": 531,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9992626309394836,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 15784,
+      "componentType": 5126,
+      "count": 531,
+      "max": [
+        0.9890984892845154,
+        0.9946377873420715
+      ],
+      "min": [
+        0.0005000000237487257,
+        0.5508566498756409
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 22200,
+      "componentType": 5125,
+      "count": 1242,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 60096,
+      "componentType": 5126,
+      "count": 245,
+      "max": [
+        24.485136032104492,
+        17.265127182006836,
+        39.15789794921875
+      ],
+      "min": [
+        -24.485136032104492,
+        -16.774269104003906,
+        30.862947463989258
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 63036,
+      "componentType": 5126,
+      "count": 245,
+      "max": [
+        0.9982565641403198,
+        1.0,
+        0.9554131031036377
+      ],
+      "min": [
+        -0.9982565641403198,
+        -0.9992626309394836,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 20032,
+      "componentType": 5126,
+      "count": 245,
+      "max": [
+        0.9908539652824402,
+        0.9361867904663086
+      ],
+      "min": [
+        0.9117276072502136,
+        0.27821454405784607
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 27168,
+      "componentType": 5125,
+      "count": 984,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 65976,
+      "componentType": 5126,
+      "count": 153,
+      "max": [
+        10.866625785827637,
+        4.1139655113220215,
+        0.5359211564064026
+      ],
+      "min": [
+        -10.866625785827637,
+        -4.1139655113220215,
+        -0.5359211564064026
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 67812,
+      "componentType": 5126,
+      "count": 153,
+      "max": [
+        0.9912685751914978,
+        0.9912680387496948,
+        0.9994896054267883
+      ],
+      "min": [
+        -0.9912685751914978,
+        -0.9912680387496948,
+        -0.9994896054267883
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 21992,
+      "componentType": 5126,
+      "count": 153,
+      "max": [
+        0.9356159567832947,
+        0.26449519395828247
+      ],
+      "min": [
+        0.9213430285453796,
+        0.015116555616259575
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 31104,
+      "componentType": 5125,
+      "count": 768,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 69648,
+      "componentType": 5126,
+      "count": 153,
+      "max": [
+        10.866625785827637,
+        4.1139655113220215,
+        0.5359211564064026
+      ],
+      "min": [
+        -10.866625785827637,
+        -4.1139655113220215,
+        -0.5359211564064026
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 71484,
+      "componentType": 5126,
+      "count": 153,
+      "max": [
+        0.9912685751914978,
+        0.9912680387496948,
+        0.9994896054267883
+      ],
+      "min": [
+        -0.9912685751914978,
+        -0.9912680387496948,
+        -0.9994896054267883
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 23216,
+      "componentType": 5126,
+      "count": 153,
+      "max": [
+        0.95508873462677,
+        0.26421329379081726
+      ],
+      "min": [
+        0.9408317804336548,
+        0.015116555616259575
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 34176,
+      "componentType": 5125,
+      "count": 768,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "media_mas (https://sketchfab.com/media_mas)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/caja-de-municion-2-lowpoly-257304a529714c12991bb1d3dd0778af",
+      "title": "Caja de munición 2 - Lowpoly"
+    },
+    "generator": "Sketchfab-12.65.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 37248,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24440,
+      "byteOffset": 37248,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 73320,
+      "byteOffset": 61688,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 135008,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "02_-_Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0975601978,
+          0.4342506925,
+          0.0790812116,
+          1.0
+        ],
+        "metallicFactor": 0.1236661585,
+        "roughnessFactor": 0.4712271341
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "05_-_Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.14902,
+          0.2,
+          0.0745098,
+          1.0
+        ],
+        "metallicFactor": 0.7334222561,
+        "roughnessFactor": 0.4651295732
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "name": "04_-_Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.3941570348654627,
+          0.5012403782330165,
+          0.0683509342598099,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "03_-_Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.492038141,
+          0.492038141,
+          0.492038141,
+          1.0
+        ],
+        "metallicFactor": 0.9102515244,
+        "roughnessFactor": 0.251714939
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "caja_municion_01_02 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "caja_municion_01_05 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "caja_municion_01_04 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "caja_municion_01_tapa_02 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "caja_municion_01_tapa_05 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "caja_municion_01_tapa_03 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 21,
+            "POSITION": 20,
+            "TEXCOORD_0": 22
+          },
+          "indices": 23,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "caja_municion_01_p1_03 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 25,
+            "POSITION": 24,
+            "TEXCOORD_0": 26
+          },
+          "indices": 27,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "caja_municion_01_p2_03 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 29,
+            "POSITION": 28,
+            "TEXCOORD_0": 30
+          },
+          "indices": 31,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "de165fc2a21347d6970ec960c045a772.fbx"
+    },
+    {
+      "children": [
+        3,
+        8,
+        13,
+        16
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        -1.0,
+        -2.86102294921875e-06,
+        1.0
+      ],
+      "name": "caja_municion_01"
+    },
+    {
+      "children": [
+        5,
+        6,
+        7
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -2.86102294921875e-06,
+        1.0,
+        1.0
+      ],
+      "name": "Object_4"
+    },
+    {
+      "mesh": 0,
+      "name": "caja_municion_01_02 - Default_0"
+    },
+    {
+      "mesh": 1,
+      "name": "caja_municion_01_05 - Default_0"
+    },
+    {
+      "mesh": 2,
+      "name": "caja_municion_01_04 - Default_0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        7.207304406620096e-07,
+        28.64111328125,
+        -16.783491134643555,
+        1.0
+      ],
+      "name": "caja_municion_01_tapa"
+    },
+    {
+      "children": [
+        10,
+        11,
+        12
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -7.207304406620096e-07,
+        -16.783491134643555,
+        -33.48813247680664,
+        1.0
+      ],
+      "name": "Object_9"
+    },
+    {
+      "mesh": 3,
+      "name": "caja_municion_01_tapa_02 - Default_0"
+    },
+    {
+      "mesh": 4,
+      "name": "caja_municion_01_tapa_05 - Default_0"
+    },
+    {
+      "mesh": 5,
+      "name": "caja_municion_01_tapa_03 - Default_0"
+    },
+    {
+      "children": [
+        14
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        -32.40185546875,
+        22.72646713256836,
+        -0.03809834644198418,
+        1.0
+      ],
+      "name": "caja_municion_01_p1"
+    },
+    {
+      "children": [
+        15
+      ],
+      "matrix": [
+        -6.123233995736766e-17,
+        -1.0,
+        1.2246467991473532e-16,
+        0.0,
+        -6.123233995736765e-17,
+        1.2246467991473532e-16,
+        1.0,
+        0.0,
+        -1.0,
+        6.123233995736765e-17,
+        -6.123233995736766e-17,
+        0.0,
+        0.0,
+        1.5676509690365492e-07,
+        -3.58636736869812,
+        1.0
+      ],
+      "name": "Object_14"
+    },
+    {
+      "mesh": 6,
+      "name": "caja_municion_01_p1_03 - Default_0"
+    },
+    {
+      "children": [
+        17
+      ],
+      "matrix": [
+        -0.9999999999999887,
+        1.2246469849340659e-16,
+        -1.5099580265055077e-07,
+        0.0,
+        -1.5099580265055077e-07,
+        -4.440892098500626e-16,
+        0.9999999999999887,
+        0.0,
+        1.2246464555384738e-16,
+        1.0,
+        3.3306690738754696e-16,
+        0.0,
+        32.4023323059082,
+        22.72646713256836,
+        -0.03809834644198418,
+        1.0
+      ],
+      "name": "caja_municion_01_p2"
+    },
+    {
+      "children": [
+        18
+      ],
+      "matrix": [
+        -6.123233995736766e-17,
+        -1.0,
+        1.2246467991473532e-16,
+        0.0,
+        -6.123233995736765e-17,
+        1.2246467991473532e-16,
+        1.0,
+        0.0,
+        -1.0,
+        6.123233995736765e-17,
+        -6.123233995736766e-17,
+        0.0,
+        0.0,
+        1.5676509690365492e-07,
+        -3.58636736869812,
+        1.0
+      ],
+      "name": "Object_17"
+    },
+    {
+      "mesh": 7,
+      "name": "caja_municion_01_p2_03 - Default_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pallete
+* source:	https://sketchfab.com/3d-models/pallete-5970b04059c14e559c4c14bab28b006c
+* author:	PropsForGames (https://sketchfab.com/PropsForGames)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pallete" (https://sketchfab.com/3d-models/pallete-5970b04059c14e559c4c14bab28b006c) by PropsForGames (https://sketchfab.com/PropsForGames) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
